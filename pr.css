@@ -1,0 +1,24 @@
+:root {
+    --white: #ffffff;
+    --padding: 1rem 4rem 1rem 4rem;
+  }
+  
+  .container-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 15px;
+  }
+  
+  button[type="button"] {
+    padding: var(--padding);
+    border: none;
+    background-image: linear-gradient(to right bottom, #1424c4, #3e26cb, #5829d2, #6f2cd9, #832fe0);
+    color: var(--white);
+    cursor: pointer; 
+  }
+  
+  button[type="button"]:hover {
+    background-image: linear-gradient(to right bottom, #832fe0, #732fe3, #612fe6, #4930e9, #1f31ec);
+  }
+  
